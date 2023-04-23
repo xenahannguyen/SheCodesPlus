@@ -1,0 +1,55 @@
+.mainbody {
+  background: #698474;
+}
+.main {
+  background-color: #fcf8f3;
+  color: #132743;
+  padding: 130px 70px;
+  margin: 30px auto;
+  width: 40%;
+  border-radius: 20px;
+}
+
+.city-input {
+  position: relative;
+  top: -110px;
+  right: 65px;
+}
+
+#button-addon2 {
+  background: #ffaaa5;
+  color: white;
+}
+
+#today-temp {
+  position: relative;
+  right: 95px;
+  top: 160px;
+  font-size: 80px;
+  font-family: "Schibsted Grotesk", sans-serif;
+}
+
+.today-date {
+  font-size: 15px;
+  font-family: "Nanum Gothic", sans-serif;
+  position: relative;
+  top: 135px;
+  right: 52px;
+}
+
+.today-city {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  top: 105px;
+  right: -80px;
+}
+
+.card-group {
+  position: absolute;
+  left: 400px;
+}
+
+.card-img-bottom {
+  width: 30%;
+}

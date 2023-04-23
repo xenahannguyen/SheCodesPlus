@@ -1,0 +1,43 @@
+.info {
+  text-align: center;
+}
+h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px;
+  margin: 0;
+  padding: 80px 0 0;
+}
+
+.info #sub-info {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #8064e9;
+  font-size: 40px;
+  margin: 0;
+  padding: 0 0 20px;
+}
+
+.shecodes-info {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 18px;
+}
+
+.join-now {
+  margin: 10px;
+  font-size: 17px;
+  color: white;
+  background: #8064e9;
+  padding: 20px 25px;
+  border-radius: 25px;
+  border: #8064e9;
+  box-shadow: 0px 0px 7px 0px black;
+}
+
+.join-now:hover {
+  background: #57439d;
+  cursor: pointer;
+  transition: all 200ms ease;
+}
+
+#cat-coding {
+  margin-top: 10px;
+}
