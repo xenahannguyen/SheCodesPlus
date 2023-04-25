@@ -5,7 +5,7 @@
   background-color: #fcf8f3;
   color: #132743;
   padding: 130px 70px;
-  margin: 30px auto;
+  margin: 110px auto;
   width: 40%;
   border-radius: 20px;
 }
@@ -47,7 +47,8 @@
 
 .card-group {
   position: absolute;
-  left: 400px;
+  top: 625px;
+  left: 475px;
 }
 
 .card-img-bottom {
