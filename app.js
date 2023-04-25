@@ -29,10 +29,10 @@ let cityTemp = Math.round(weather[city].temp);
 let cityHumid = weather[city].humidity;
 let fahTemp = Math.round((weather[city].temp) * 9 / 5 + 32);
 alert(`It is currently ${cityTemp}°C (${fahTemp}°F) in ${city} with a humidity of ${cityHumid}%.`)
-} 
-if (city.length === 0) {
-    alert("You forgot to search for a city, silly!");
-}else {
+} else {
+    if (city.length === 0) {
+        alert("You forgot to search for a city, silly!");
+} else { 
     alert("Sorry we don't have data for that city yet!😢");
+} 
 }
-
